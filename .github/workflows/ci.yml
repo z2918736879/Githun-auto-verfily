@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-#  schedule:
-#    - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   autogreen:
@@ -16,8 +16,8 @@ jobs:
   
     steps:
       - name: Clone repository
-        uses: actions/checkout@v3
-
+        uses: z2918736879@gmail.com
+              han02024756
       - name: Auto green
         run: |
           git config --local user.email "justjavac@gmail.com"
