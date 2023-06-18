@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Clone repository
         uses: z2918736879@gmail.com
-              han02024756
+          han02024756
       - name: Auto green
         run: |
           git config --local user.email "justjavac@gmail.com"
